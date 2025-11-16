@@ -1,13 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
-function Header() {
+// 1. Make sure you are receiving { cartCount } here
+function Header({ cartCount }) {
   return (
     <header className="header">
-      <div className="header-title">☕ My Café</div>
+      <Link to="/" className="header-title">
+        ☕ My Café
+      </Link>
       <nav className="header-nav">
-        <a href="#">Menu</a>
-        <a href="#">Cart (0)</a>
+        <Link to="/">Menu</Link>
+        
+        {/* 2. Make sure you are using the cartCount prop here */}
+        <Link to="/cart">Cart ({cartCount})</Link>
       </nav>
     </header>
   );
