@@ -22,11 +22,7 @@ The café admin can manage menu items, view orders, and track order status in re
 - Make secure payments (future integration)  
 - View order history  
 
-### 👨‍💼 Admin Features (future scope)
-- Add, update, or remove menu items  
-- View and manage all orders  
-- Update order status (e.g., Pending, In Progress, Completed)  
-- Dashboard for daily sales summary  
+### 👨‍💼 Admin Features (future scope) - Add, update, or remove menu items  - View and manage all orders  - Update order status (e.g., Pending, In Progress, Completed)  - Dashboard for daily sales summary  
 
 ---
 
